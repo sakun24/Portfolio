@@ -1,0 +1,48 @@
+#header {
+  width: 100%;
+  background-color: rgb(94, 93, 93);
+  height: 100vh;
+  background-image: url(../../assets/Avatar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  /* background-color: red; */
+}
+#header ul li {
+  display: inline-block;
+  padding-left: 25px;
+}
+#header a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+#header a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  margin: auto;
+  display: block;
+  background-color: red;
+}
+#header a:hover::after {
+  width: 100%;
+  transition: all 0.5s;
+}
+#header .header_text {
+  height: 100px;
+  margin-top: 10%;
+}
+#header p {
+  font-size: 2rem;
+}
+#header h1 {
+  font-size: 4rem;
+  color: rgb(216, 16, 16);
+}
